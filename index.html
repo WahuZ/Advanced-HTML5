@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Advanced HTML5</title>
+</head>
+<body>
+    <h1>Advanced HTML5</h1>
+    <h2>Wild Animals</h2>
+    <ol type="i">
+        <li>Elephant</li>
+        <li>Lion</li>
+        <li>Cheetah</li>
+        <li>Rhino</li>
+        <li>Tiger</li>
+    </ol>
+    <h2>Image</h2>
+    <h3>External Image</h3>
+    <img src="https://images.pexels.com/photos/572861/pexels-photo-572861.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image of Tiger" height="500" width="400">
+
+    <h2>Contact Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gael Maina</td>
+                <td>123 Pipeline, Nakuru</td>
+                <td>+2547000000001</td>
+                <td>Mainagael1@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Myel Wanjiku</td>
+                <td>111eastleigh, Nairobi</td>
+                <td>+25470122221</td>
+                <td>shikumyel02@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Abigail Shree</td>
+                <td>1020 nakuru town, Nakuru</td>
+                <td>+2547525481</td>
+                <td>abishree004@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Neeraj Khan</td>
+                <td>101 Umoja, Eldoret</td>
+                <td>+25478828821</td>
+                <td>khanraj104@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Bonny Ger</td>
+                <td>1020 nakuru town, Nakuru</td>
+                <td>+2547556561</td>
+                <td>Gerbon001@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Forms</h2>
+    <form>
+        <label for ="name"> Full Name: </label>
+        <input type="text" id= "name" name ="name" placeholder="Enter your full name" required/>
+        <label for ="Email">Email: </label>
+        <input type="Email" id= "email" name ="email" placeholder="example@gmail.com" required/>
+        <label for ="Password"> Password: </label>
+        <input type="Password" id= "Password" name ="Password" placeholder="Create a strong Password" required/>
+        <label for="DOB">Date of Birth: </label>
+        <input type="Date" id= "DOB" name ="DOB" placeholder="1/1/2001" required/>
+
+        <p>Gender:</p>
+  <input type="radio" id="male" name="gender" value="male" required />
+  <label for="male">Male</label>
+
+  <input type="radio" id="female" name="gender" value="female" required />
+  <label for="female">Female</label>
+
+  <input type="radio" id="other" name="gender" value="other" required />
+  <label for="other">Other</label>
+
+        <p>Country of Residence</p>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">--Select Country--</option>
+          <option value="kenya">Kenya</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="uganda">Uganda</option>
+        </select>
+        
+        <p>Level of Education:</p>
+  <input type="radio" id="primary" name="education" value="Primary" required />
+  <label for="primary">Primary</label>
+
+  <input type="radio" id="secondary" name="education" value="Secondary" required />
+  <label for="secondary">Secondary</label>
+
+  <input type="radio" id="college" name="education" value="College" required />
+  <label for="college">College</label>
+
+  <input type="radio" id="university" name="education" value="University" required />
+  <label for="university">University</label>
+
+  <button type="submit">Register</button>
+    </form>
+    
+</html>
